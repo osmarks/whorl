@@ -1,0 +1,20 @@
+{
+  "name": "whorl",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "arcsecond": "^2.0.3",
+    "hashbow": "^1.1.1",
+    "hyperapp": "^2.0.3"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "stylus": "^0.54.7"
+  },
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "browserslist": [
+    "last 1 Firefox version"
+  ]
+}

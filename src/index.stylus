@@ -1,0 +1,33 @@
+#app
+    font-family 'Fira Sans', sans-serif
+
+.previous-rolls
+    border-collapse collapse
+
+    tr:nth-child(1)
+        background lightgray
+
+    td, th
+        padding 0 1em 0 1em
+
+    .raw-dice
+        font-weight bold
+        cursor pointer
+
+.controls
+    button
+        width 10em
+        height 2em
+
+    input, button
+        border-radius 0
+        border 1px solid black
+
+    input
+        width calc(100% - 10em)
+        height 2em
+
+    margin-bottom 1em
+
+.error
+    color red
